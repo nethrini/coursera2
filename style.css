@@ -1,0 +1,208 @@
+		h1
+	{
+		margin-bottom:15px;
+
+		text-align:center;
+	}
+	p
+	{
+		border:3px solid black;
+		
+	}
+	#p11
+	{
+		background-color:#FF6633;
+		border:2px solid black;
+		text-align:top-right;
+		position:relative;
+		top:20px;
+		left:300px;
+		width:70px;
+		height:20px;
+		color:black;
+		overflow:hidden;		
+	}
+	#p12
+	{
+		color:white;
+		background-color:#CC1300;
+		border:2px solid black;
+		position:relative;
+		top:-20px;
+		text-align:top-right;
+		left:698px;
+		width:70px;
+		height:20px;
+		
+		overflow:hidden;			
+
+	}
+	#p13
+	{
+		background-color:#CDDC00;
+		border:2px solid black;
+		position:relative;
+		text-align:top-right;
+		top:-60px;
+		color:black;
+		left:1093px;
+		width:70px;
+		height:20px;
+		
+		overflow:hidden;			
+	}
+
+	#p1
+	{	
+		background-color:pink;
+		float:left;	
+		padding:25px;
+		width:300px;
+		height:110px;
+		color:black;
+		margin:20px;
+		margin-top:-100px;
+	}
+	#p2
+	{	
+		background-color:green;
+		width:300px;
+		height:110px;
+		padding:25px;
+		color:white;
+		float:left;							margin:20px;
+		margin-top:-100px;
+	}
+	#p3
+	{	
+		background-color:grey;
+		padding:25px;
+		width:300px;
+		height:110px;
+		float:left;			
+		margin:20px;
+		color:pink;
+		margin-top:-100px;
+	}
+	@media only screen and (min-width:768px) and (max-width:991px)
+	{
+		#p1
+		{
+			width:300px;
+			height:100px;
+		}
+		#p2
+		{
+			width:300px;
+			height:100px;
+		}
+		#p3
+		{
+			margin-top:20px;
+			width:690px;
+			height:100px;
+		}
+		#p13
+		{
+			top:138px;	
+			left:691px;
+			
+		}
+	}
+	
+	@media only screen and (min-width:992px) 	
+	{
+		#p1
+		{
+			width:300px;
+		}
+		#p2
+		{
+			width:300px;
+		}
+		#p3
+		{
+			width:300px;
+		}
+		#p11
+		{
+		
+		border:2px solid black;
+		text-align:top-right;
+		position:relative;
+		top:20px;
+		left:300px;
+		width:70px;
+		height:20px;
+		
+		overflow:hidden;		
+	}
+	#p12
+	{
+		
+		border:2px solid black;
+		position:relative;
+		top:-20px;
+		text-align:top-right;
+		left:698px;
+		width:70px;
+		height:20px;
+		
+		overflow:hidden;			
+
+	}
+	#p13
+	{
+		
+		border:2px solid black;
+		position:relative;
+		text-align:top-right;
+		top:-60px;
+		left:1093px;
+		width:70px;
+		height:20px;
+		
+		overflow:hidden;			
+	}
+
+	}
+	@media only screen and (max-width:767px) 	
+	{
+		#p1
+		{
+			width:200px;
+			height:150px;
+			
+			
+		}
+		#p2
+		{
+			width:200px;
+			height:150px;
+			margin-top:10px;
+		}
+		#p3
+		{
+			width:200px;
+			height:125px;
+			margin-top:10px;
+		}
+		#p11
+		{
+			top:22px;	
+			left:200px;
+		}
+		#p12
+		{
+			top:217px;	
+			left:200px;
+		}
+		#p13
+		{
+			top:413px;	
+			left:200px;
+		}
+	
+	}
+
+	
